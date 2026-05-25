@@ -112,8 +112,8 @@ export function ContactSection() {
             {/* Contact Info */}
             <div className="space-y-4 mb-8">
               {[
-                { icon: Phone, label: "Call Us", value: "+91 9508786003", color: "#7C3AED" },
-                { icon: Mail, label: "Email Us", value: "Info.rvmediaonline.com", color: "#06B6D4" },
+                { icon: Phone, label: "Call Us", value: "+91 93107 39176", color: "#7C3AED" },
+                { icon: Mail, label: "Email Us", value: "Info.rvmediatechnologies@gmail.com", color: "#06B6D4" },
                 { icon: MapPin, label: "Visit Us", value: "Noida, Uttar Pradesh, India", color: "#F59E0B" },
               ].map((item) => (
                 <div key={item.label} className="flex items-center gap-4">
@@ -235,7 +235,7 @@ export function ContactSection() {
                     <input
                       required
                       type="text"
-                      placeholder="Rahul Sharma"
+                      placeholder="Dev"
                       value={form.name}
                       onChange={(e) => setForm({ ...form, name: e.target.value })}
                       style={inputStyle}
@@ -263,7 +263,7 @@ export function ContactSection() {
                     <label style={labelStyle}>Phone Number</label>
                     <input
                       type="tel"
-                      placeholder="+91 98765 43210"
+                      placeholder="+91 93107 39176"
                       value={form.phone}
                       onChange={(e) => setForm({ ...form, phone: e.target.value })}
                       style={inputStyle}
@@ -283,6 +283,8 @@ export function ContactSection() {
                       <option value="" style={{ background: "#040411" }}>Select a service</option>
                       <option value="seo" style={{ background: "#040411" }}>SEO Services</option>
                       <option value="ppc" style={{ background: "#040411" }}>PPC / Google Ads</option>
+                      <option value="Custom Softwares" style={{ background: "#040411" }}>Custom Softwares / IT Solutions</option>
+
                       <option value="social" style={{ background: "#040411" }}>Social Media Marketing</option>
                       <option value="content" style={{ background: "#040411" }}>Content Marketing</option>
                       <option value="web" style={{ background: "#040411" }}>Web Design & Dev</option>
