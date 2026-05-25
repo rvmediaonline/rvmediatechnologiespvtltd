@@ -3,12 +3,12 @@ import { motion } from "motion/react";
 import { ArrowRight, Play, TrendingUp, Users, Award, Globe } from "lucide-react";
 import { Scene3DHero } from "./3d/Scene3DHero";
 
-const rotatingWords = ["SEO", "PPC", "Social Media", "Content", "Branding", "E-Commerce"];
+const rotatingWords = ["SEO", "PPC", "Social Media", "Content", "Branding", "E-Commerce", "Ai Integration"];
 
 const floatingStats = [
-  { icon: TrendingUp, label: "Revenue Generated", value: "₹10B+", color: "#7C3AED" },
-  { icon: Users, label: "Happy Clients", value: "500+", color: "#06B6D4" },
-  { icon: Award, label: "Awards Won", value: "120+", color: "#F59E0B" },
+  { icon: TrendingUp, label: "Revenue Generated", value: "₹10M+", color: "#7C3AED" },
+  { icon: Users, label: "Happy Clients", value: "150+", color: "#06B6D4" },
+  { icon: Award, label: "Awards Won", value: "10+", color: "#F59E0B" },
   { icon: Globe, label: "Countries Served", value: "25+", color: "#10B981" },
 ];
 
