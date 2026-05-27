@@ -1,0 +1,1 @@
+import{j as e}from"./vendor-fiber-CBkpngRX.js";import{a as s}from"./vendor-react-DCUH_W0G.js";import"./vendor-three-Bl_lqNaM.js";const o=()=>e.jsx(s.Suspense,{fallback:null,children:e.jsx(Scene3DServices,{})});export{o as default};
