@@ -2,10 +2,6 @@ import { defineConfig } from 'vite'
 import path from 'path'
 import tailwindcss from '@tailwindcss/vite'
 import react from '@vitejs/plugin-react'
-import { lazy } from 'react';
-
-// Instead of: import LargeComponent from './LargeComponent'
-const LargeComponent = lazy(() => import('./LargeComponent'));
 
 
 function figmaAssetResolver() {
